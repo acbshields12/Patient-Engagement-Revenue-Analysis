@@ -149,7 +149,7 @@ All outputs were validated and refined to ensure accuracy and reliability.
 
 ## 📸 Dashboard Preview
 
-![](images/dash_page-001.jpg)
+![](images/dash.jpg)
 
 ---
 
