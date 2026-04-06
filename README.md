@@ -1,10 +1,10 @@
-# 🏥 Healthcare Data Analysis Project (Excel → MySQL → Power BI)
+# 🏥 Healthcare Patient Engagement & Revenue Analysis (U.S. State-Based)
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end healthcare data analysis workflow—from **data generation in Excel**, to **data storage and querying in MySQL**, and finally to **interactive visualization in Power BI**.
+This project presents an end-to-end healthcare data analysis workflow using **Excel, MySQL, and Power BI**, focusing on patient engagement, revenue performance, and operational insights across **U.S. states**.
 
-The goal is to analyze patient behavior, operational performance, and revenue trends using real-world analytical techniques.
+The analysis explores how patient behavior, appointment outcomes, and financial performance vary by state, department, and doctor.
 
 ---
 
@@ -12,22 +12,22 @@ The goal is to analyze patient behavior, operational performance, and revenue tr
 
 * Analyze **patient engagement and retention**
 * Identify **top-performing departments and doctors**
-* Evaluate **regional performance**
-* Track **temporal trends in visits and revenue**
+* Evaluate **performance across U.S. states**
+* Track **revenue and visit trends over time**
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Excel** – Data generation, cleaning, feature engineering
-* **MySQL** – Data storage, transformation, and querying
+* **Excel** – Data generation, cleaning, and feature engineering
+* **MySQL** – Data storage, querying, and analysis
 * **Power BI** – Dashboard creation and data visualization
 
 ---
 
 ## 📊 Dataset Description
 
-The dataset simulates hospital patient records with the following fields:
+The dataset simulates healthcare patient records with the following fields:
 
 * Patient_ID
 * Visit_ID
@@ -39,8 +39,7 @@ The dataset simulates hospital patient records with the following fields:
 * Doctor
 * Visit_Date
 * Month-Year
-* State
-* Region (derived from State)
+* State (U.S. State)
 * Appointment_Status (Completed / No-show)
 * Revenue
 * Patient Type (New / Returning)
@@ -67,13 +66,26 @@ The dataset simulates hospital patient records with the following fields:
 
 ### 3. Power BI
 
-* Connected directly to MySQL database
-* Created data model and DAX measures
-* Built interactive dashboard with filters and KPIs
+* Connected MySQL database to Power BI
+* Built data model and created DAX measures
+* Designed an interactive dashboard
 
 ---
 
-## 📈 Key Analyses & Reports
+## 🤖 Use of AI
+
+AI tools were used to assist in:
+
+* Generating and optimizing SQL queries
+* Writing advanced functions (RANK, LAG)
+* Debugging errors in SQL and DAX
+* Structuring calculations for Power BI
+
+All outputs were validated and refined to ensure accuracy and reliability.
+
+---
+
+## 📈 Key Analyses
 
 ### 🔹 1. Engagement & Retention Analysis
 
@@ -87,43 +99,46 @@ The dataset simulates hospital patient records with the following fields:
 * Revenue by Department
 * Visit distribution by Department
 
-### 🔹 3. Regional / Hierarchical Ranking
+### 🔹 3. State-Level Performance
 
-* Revenue by Region
-* Top-performing Doctors
-* Region and Doctor ranking
+* Revenue by U.S. State
+* No-show trends by state
+* Identification of high-performing states
 
-### 🔹 4. Temporal Growth / Trend Analysis
+### 🔹 4. Temporal Trend Analysis
 
 * Monthly Revenue Trend
 * Monthly Visit Trend
-* Month-over-Month Growth
-* No-show trend over time
+* Growth patterns over time
 
 ---
 
 ## 📊 Dashboard Features
 
-* KPI Cards (Patients, Revenue, No-show Rate)
-* Line charts for trend analysis
-* Bar charts for ranking
-* Donut chart for contribution analysis
-* Slicers (Region, Department, Date, Gender)
+* KPI Cards (Total Patients, Revenue, Visits, No-show Rate)
+* Line Chart (Monthly Revenue Trend)
+* Donut Chart (Department Contribution)
+* Bar Chart (Revenue by State)
+* Stacked Column Chart (Appointment Status Trends)
+* Doctor Performance Chart (Top 5 Doctors)
+* Interactive slicers (State, Department, Gender, Date)
 
 ---
 
-## 🔍 Key Insights (Example)
+## 🔍 Key Insights
 
-* Revenue shows consistent monthly growth
-* Certain departments contribute the majority of revenue
-* No-show rates highlight operational inefficiencies
-* Regional differences indicate performance gaps
+* Revenue demonstrates a consistent upward trend over time
+* Certain departments contribute a majority of total revenue
+* Patient retention is observed through repeat visits
+* No-show rates vary across U.S. states
+* Top-performing doctors generate a significant portion of revenue
+* State-level differences highlight opportunities for operational improvement
 
 ---
 
 ## 📁 Project Structure
 
-```id="2l7b7i"
+```
 /data        → Excel dataset  
 /sql         → MySQL queries  
 /dashboard   → Power BI (.pbix file)  
@@ -132,20 +147,26 @@ The dataset simulates hospital patient records with the following fields:
 
 ---
 
-## 🚀 How to Run This Project
+## 📸 Dashboard Preview
 
-1. Open Excel file and review dataset
-2. Import data into MySQL using CSV
+*(Insert your dashboard screenshots here)*
+
+---
+
+## 🚀 How to Use
+
+1. Open the Excel dataset and review the data
+2. Import data into MySQL
 3. Run SQL queries for analysis
-4. Connect Power BI to MySQL database
-5. Build visuals using provided measures
+4. Connect MySQL to Power BI
+5. Build and interact with the dashboard
 
 ---
 
 ## 💡 Skills Demonstrated
 
 * Data Cleaning & Preparation
-* SQL Querying (Aggregations, Window Functions)
+* SQL Querying (Aggregations, Subqueries, Window Functions)
 * Data Modeling in Power BI
 * DAX Calculations
 * Data Visualization & Storytelling
@@ -156,20 +177,13 @@ The dataset simulates hospital patient records with the following fields:
 
 * Add predictive analytics (forecasting trends)
 * Include patient diagnosis and treatment data
-* Implement cohort analysis for deeper retention insights
-
----
-
-## 📸 Dashboard Preview
-
-*(Insert screenshot here)*
+* Implement cohort-based retention analysis
 
 ---
 
 ## 👤 Author
 
-Adriane Clark Ballesteros-Shields  
-Healthcare Data Analyst Trainee
+Adriane Clark Ballesteros
 
 * 🔗 GitHub: https://github.com/acbshields12
 
