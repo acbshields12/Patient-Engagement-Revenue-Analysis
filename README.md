@@ -76,7 +76,10 @@ The dataset simulates healthcare patient records with the following fields:
 
 AI tools were used to assist in:
 
-* Created realistic synthetic dataset
+* Created realistic synthetic healthcare dataset
+* Used nested queries to calculate metrics such as returning patients
+* Utilized DATE_FORMAT() to group data by month and year for time-based trend analysis
+* Built logic for calculating percentage rates 
 * Debugging errors in SQL and DAX
 * Structuring calculations for Power BI
 
