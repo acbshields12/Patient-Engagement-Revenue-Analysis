@@ -76,12 +76,11 @@ The dataset simulates healthcare patient records with the following fields:
 
 AI tools were used to assist in:
 
-* Generating and optimizing SQL queries
-* Writing advanced functions (RANK, LAG)
+* Created realistic synthetic dataset
 * Debugging errors in SQL and DAX
 * Structuring calculations for Power BI
 
-All outputs were validated and refined to ensure accuracy and reliability.
+All outputs were manually validated and refined to ensure accuracy and reliability.
 
 ---
 
