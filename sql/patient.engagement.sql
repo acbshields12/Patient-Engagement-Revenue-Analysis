@@ -42,6 +42,7 @@ from patient_data;
 -- Total Revenue per State --
 select state, sum(revenue) as total_revenue_state
 from patient_data
+where appointment_status = 'Completed'
 group by state
 order by total_revenue_state Desc;
 
