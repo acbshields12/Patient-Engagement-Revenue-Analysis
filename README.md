@@ -185,7 +185,8 @@ All outputs were manually validated and refined to ensure accuracy and reliabili
 
 ## 👤 Author
 
-Adriane Clark Ballesteros
+Adriane Clark Ballesteros  
+Healthcare Data Analyst Trainee
 
 * 🔗 GitHub: https://github.com/acbshields12
 
