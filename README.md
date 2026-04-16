@@ -31,7 +31,7 @@ The dataset simulates healthcare patient records with the following fields:
 
 * Patient_ID
 * Visit_ID
-* Full Name
+ * Full Name
 * Gender
 * Age
 * Age Group
