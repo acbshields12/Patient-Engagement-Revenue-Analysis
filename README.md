@@ -141,17 +141,18 @@ All outputs were manually validated and refined to ensure accuracy and reliabili
 ## 📁 Project Structure
 
 ```
-/data        → Excel dataset  
+/data        → csv dataset
+/excel       → Excel file
+/insights    → Dashboard screenshots     
+/powerbi     → Power BI (.pbix file)  
 /sql         → MySQL queries  
-/dashboard   → Power BI (.pbix file)  
-/images      → Dashboard screenshots  
 ```
 
 ---
 
 ## 📸 Dashboard Preview
 
-![](images/dash.jpg)
+![](insights/dash.jpg)
 
 ---
 
