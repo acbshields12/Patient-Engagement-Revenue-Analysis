@@ -1,5 +1,11 @@
 # 🏥 Healthcare Patient Engagement & Revenue Analysis (U.S. State-Based)
+---
 
+## 📸 Dashboard Preview
+
+![](insights/dash.jpg)
+
+---
 ## 📌 Project Overview
 
 This project presents an end-to-end healthcare data analysis workflow using **Excel, MySQL, and Power BI**, focusing on patient engagement, revenue performance, and operational insights across **U.S. states**.
@@ -148,13 +154,6 @@ All outputs were manually validated and refined to ensure accuracy and reliabili
 /sql         → MySQL queries  
 ```
 
----
-
-## 📸 Dashboard Preview
-
-![](insights/dash.jpg)
-
----
 
 ## 🚀 How to Use
 
