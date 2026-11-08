@@ -179,11 +179,11 @@ Monthly appointment trends can help healthcare administrators anticipate periods
 
 Further analysis of first-time and returning patients could provide better insights into patient retention and engagement. Accurate patient visit history is important for identifying repeat visits and understanding long-term engagement patterns.
 
-## Final Takeaway
+### Final Takeaway
 
 This project demonstrates how healthcare appointment data can be analyzed using SQL to identify operational trends, measure patient engagement, evaluate departmental performance, and uncover potential areas for improvement.
 
-By combining data cleaning, SQL queries, aggregations, joins, calculated metrics, and data visualization, I was able to translate raw appointment records into actionable business insights. The project strengthened my ability to approach healthcare data from an analytical perspective and communicate findings that can support data-driven decision-making.
+**By combining data cleaning, SQL queries, aggregations, joins, calculated metrics, and data visualization, I was able to translate raw appointment records into actionable business insights. The project strengthened my ability to approach healthcare data from an analytical perspective and communicate findings that can support data-driven decision-making.
 ---
 
 ## 📁 Project Structure
